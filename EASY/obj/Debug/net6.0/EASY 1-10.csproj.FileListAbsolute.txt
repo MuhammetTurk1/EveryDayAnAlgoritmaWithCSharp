@@ -1,0 +1,15 @@
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\bin\Debug\net6.0\EASY 1-10.exe
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\bin\Debug\net6.0\EASY 1-10.deps.json
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\bin\Debug\net6.0\EASY 1-10.runtimeconfig.json
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\bin\Debug\net6.0\EASY 1-10.dll
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\bin\Debug\net6.0\EASY 1-10.pdb
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\EASY 1-10.csproj.AssemblyReference.cache
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\EASY 1-10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\EASY 1-10.AssemblyInfoInputs.cache
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\EASY 1-10.AssemblyInfo.cs
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\EASY 1-10.csproj.CoreCompileInputs.cache
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\EASY 1-10.dll
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\refint\EASY 1-10.dll
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\EASY 1-10.pdb
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\EASY 1-10.genruntimeconfig.cache
+C:\Users\muhammer TURK\Desktop\Algorithm\EASY\obj\Debug\net6.0\ref\EASY 1-10.dll
