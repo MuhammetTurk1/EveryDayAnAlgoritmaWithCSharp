@@ -21,7 +21,7 @@ namespace EASY
     //    static void Main(string[] args)
     //    {
     //        Console.WriteLine("Enter a year:");
-    //        int year = Convert.ToInt32(Console.ReadLine());
+    //        int year = Convert.ToInt32(Console.ReadLine()); //Kullanıcıdan yılı aldım (1)
 
     //        string century = GetCentury(year);
 
@@ -81,30 +81,48 @@ namespace EASY
 
     //Input: nums = [3, 3], target = 6
     //Output: [0,1]
+
+
     #region Solution
-    //public class Solution
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //        int[] numbers = {1,2,3,8,11};
-    //        int[] ints = TwoSum(numbers, 19);
-    //        Console.WriteLine(ints[0] +","+ints[1]);
-    //    }
-    //    public static int[] TwoSum(int[] nums, int target)
-    //    {
-    //        for (int i = 0; i < nums.Length - 1; i++)
-    //        {
-    //            for (int j = i + 1; j < nums.Length; j++)
-    //            {
-    //                if (nums[i] + nums[j] == target)
-    //                    return new[] { i, j };
-    //            }
+    public class Solution
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Kaç elemanlı bir dizi oluşturmak istiyorsunuz ?");
+            int takenNumber=Convert.ToInt32(Console.ReadLine());
 
-    //        }
-    //        return new int[] { };
+            int[] numbers = new int[takenNumber];
 
-    //    }
-    //}
+            for (int i = 0; i < takenNumber; i++)
+            {
+
+                Console.Write($"Lütfen {i + 1}. elemanı giriniz: ");
+                numbers[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("Hangi numarayı Target etmek istiyorsunuz ?");
+            int targetNumber = Convert.ToInt32(Console.ReadLine());
+
+            if (numbers.Length>=2)
+            {
+                var ints = TwoSum(numbers, targetNumber);
+                Console.WriteLine(ints[0] + "," + ints[1]);
+            }
+        }
+        public static int[] TwoSum(int[] nums, int target)
+        {
+            for (int i = 0; i < nums.Length - 1; i++)
+            {
+                for (int j = i + 1; j < nums.Length; j++)
+                {
+                    if (nums[i] + nums[j] == target)
+                        return new[] { i, j };
+                }
+
+            }
+            return new int[] { };
+
+        }
+    }
     #endregion
 
 
@@ -473,9 +491,9 @@ namespace EASY
 
     #region Example
 
-//    Q-2 [Algorithm] Write a function finding the smallest and largest element in an Unsorted Array.
-//Sample argument: [4, 2, 0, 8, 20, 9, 10]
-//    Sample output: smallest element: 0 - largest element: 20
+    //    Q-2 [Algorithm] Write a function finding the smallest and largest element in an Unsorted Array.
+    //Sample argument: [4, 2, 0, 8, 20, 9, 10]
+    //    Sample output: smallest element: 0 - largest element: 20
 
     #endregion
     #region Solition
